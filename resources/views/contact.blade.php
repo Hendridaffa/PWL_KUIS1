@@ -24,6 +24,20 @@
             <li class="nav-item active">
               <a class="nav-link" href="/contact">Contact Us</a>
             </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="/daftarService">Daftar Service</a>
+                        <a class="dropdown-item" href="/pelanggan">Daftar Pelanggan</a>
+                        <a class="dropdown-item" href="/pegawai">Daftar Pegawai</a>
+                        <a class="dropdown-item" href="/penyedia">Daftar Penyedia</a>
+                    </div>
+                </div>
+            </li>
           </ul>
         </div>
       </div>

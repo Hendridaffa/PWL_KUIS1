@@ -19,3 +19,5 @@ Route::get('/', [PageController::class, 'home']);
 Route::get('/services', [PageController::class, 'services']);
 Route::get('/about', [PageController::class, 'about']);
 Route::get('/contact', [PageController::class, 'contact']);
+Route::get('/daftarService', [PageController::class, 'daftarService']);
+Route::get('/pelanggan', [PageController::class, 'pelanggan']);
