@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pegawai;
 use App\Models\Pelanggan;
+use App\Models\Penyedia;
 use App\Models\Service;
 use Illuminate\Http\Request;
 
@@ -34,5 +36,13 @@ class PageController extends Controller
     public function pelanggan()
     {
         return view('daftarPelanggan', ['pelanggan' => Pelanggan::pelanggan()]);
+    }
+    public function pegawai()
+    {
+        return view('daftarPegawai', ['pegawai' => Pegawai::pegawai()]);
+    }
+    public function penyedia()
+    {
+        return view('daftarPenyedia', ['penyedia' => Penyedia::penyedia()]);
     }
 }

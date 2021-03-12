@@ -21,3 +21,5 @@ Route::get('/about', [PageController::class, 'about']);
 Route::get('/contact', [PageController::class, 'contact']);
 Route::get('/daftarService', [PageController::class, 'daftarService']);
 Route::get('/pelanggan', [PageController::class, 'pelanggan']);
+Route::get('/pegawai', [PageController::class, 'pegawai']);
+Route::get('/penyedia', [PageController::class, 'penyedia']);
